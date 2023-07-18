@@ -1,0 +1,21 @@
+button{
+    height: 300px;
+    width: 300px;
+    border:none;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  27px 27px 54px #c3c3c3,
+                -27px -27px 54px #fdfdfd;
+    
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0;            
+  }
+  
+button:hover{
+    
+    box-shadow: inset 27px 27px 54px #c3c3c3,
+                inset -27px -27px 54px #fdfdfd;        
+  }
+  
